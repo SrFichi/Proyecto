@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    box-sizing: border-box;
+    background-image: url(Images/p47bS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Header_Principal
+{
+    padding: 2% 0% 0% 15%;
+}
+.Header_Principal_Menu
+{
+    display:flex;
+    align-items: center;
+    gap: 80px;
+}
+.Header_Menu_Opc
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 789;
+    text-decoration: none;
+    color: aliceblue;
+}
+.Header_Titulo
+{
+    padding: 5% 40% ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 789;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.Main_Principal{
+    display: flex;
+    align-items:baseline;
+    justify-content:space-around;
+}
+.Texto_Informativo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: ghostwhite;
+    font-size: 25px;
+    padding: 1% 2%;
+}
+.Button_En
+{
+    display: block;
+    align-items: flex-end;
+    padding: 1%;
+    
+    
+}
+.DisenoEncriptar
+{
+    width: 615px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 750;
+    background-color: blueviolet;
+    
+}
+.DisenoEncriptar:hover
+{
+    width: 615px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 750;
+    background-color: skyblue
+}
+.DisenoEncriptar:active
+{
+    width: 615px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 750;
+    background-color: yellow
+}
+.Buttons
+{
+    display: block;
+    align-items: flex-end;
+    padding: 1%;
+}
+.DisenoDesencriptar
+{
+    display: block;
+    width: 615px;
+    height: 100px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 750;
+    background-color: pink;
+}
+.DisenoDesencriptar:hover
+{
+    width: 615px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 750;
+    background-color: skyblue
+}
+.DisenoDesencriptar:active
+{
+    width: 615px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 750;
+    background-color: yellow
+}
+.Text_Box_Captura_Capturar
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 720;
+}
+textarea
+{
+    resize: none;
+}
+.Imagen_Diseno{
+    width: 30px;
+}
+@media (max-width: 1000px) {
+    .Main_Principal
+    {
+        flex-direction: column;
+    }
+    /* … */
+  }

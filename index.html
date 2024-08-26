@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+   <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <header class="Header_Principal">
+        <nav class="Header_Principal_Menu">
+            <a class="Header_Menu_Opc" href="">Encriptador</a>
+        </nav> 
+    </header>
+    <header class="Cajas_Texto">
+
+    </header>
+    <div>
+        <h1 class="Header_Titulo">Encriptador de textos!</h1>
+    </div>
+    <main class="Main_Principal">
+        <div class="Text_Box_Captura">
+            <textarea class="Text_Box_Captura_Capturar" name="Valor" id="Valor" cols="80" rows="30" placeholder="Ingrese el texto a Encriptar"></textarea>
+            <div class="Texto_Informativo">
+                <img src="./Images/84579.png" class="Imagen_Diseno">
+                <p>No se permite el ingreso de mayusculas y numeros!!</p>
+            </div>
+            <div class="Button_En">
+                <button onclick="EncriptarTexto()"class="DisenoEncriptar">Encriptar</button>
+                <button onclick="DesencriptarTexto()"class="DisenoDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="Text_Box_Captura2">
+            <textarea class="Text_Box_Captura_Capturar" name="Resultado" id="Resultado" cols="80" rows="30" placeholder="Aqui se mostrara el mensaje encriptado" disabled></textarea>
+            <div class="Buttons">
+                <button id="btnCopiar" onclick="Copiar()" class="DisenoDesencriptar">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="Footer_Funtion">
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
